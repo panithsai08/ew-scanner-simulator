@@ -5,6 +5,15 @@ import time
 
 # --- Page config ---
 st.set_page_config(page_title="EW Scan Simulator", layout="wide", page_icon="📡")
+st.markdown("""
+<style>
+.viewerBadge_container__r5tak {display: none !important;}
+.styles_viewerBadge__CvC9N {display: none !important;}
+[data-testid="stAppViewBlockContainer"] .viewerBadge {display: none !important;}
+footer {visibility: hidden;}
+#MainMenu {visibility: hidden;}
+</style>
+""", unsafe_allow_html=True)
 
 st.title("📡 Smart Scan Strategy — EW Simulation")
 st.markdown("Simulate Electronic Warfare frequency spectrum scanning and compare strategies.")
