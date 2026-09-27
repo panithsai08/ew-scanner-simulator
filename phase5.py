@@ -189,3 +189,10 @@ if run:
 
 else:
     st.info("👈 Configure settings in the sidebar and click **Run Simulation** to start.")
+
+st.markdown("""
+<style>
+.viewerBadge_container__r5tak {display: none;}
+.viewerBadge_link__qRIco {display: none;}
+</style>
+""", unsafe_allow_html=True)
